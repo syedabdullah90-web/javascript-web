@@ -1,0 +1,1450 @@
+/* fonts */
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/Sanspro/SourceSansPro-Bold.woff2') format('woff2'),
+        url('/fonts/Sanspro/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/Sanspro/SourceSansPro-Bold.woff2') format('woff2'),
+        url('/fonts/Sanspro/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('/fonts/mariyad/MyriadPro-Regular.woff2') format('woff2'),
+        url('/fonts/mariyad/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/fonts/lato/Lato-Regular.woff2') format('woff2'),
+        url('/fonts/lato/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/Sansprolight/SourceSansPro-Light.woff2') format('woff2'),
+        url('/fonts/Sansprolight/SourceSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/Sansproblack/SourceSansPro-Black.woff2') format('woff2'),
+        url('/fonts/Sanspro/SourceSansPro-Bold.woff2') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff2'),
+        url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffffff;
+
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 34px;
+    margin-bottom: 30px;
+}
+
+/* #wrapper {
+    width: 100%;
+    height: 3500px;
+} */
+
+#main_container {
+    width: 1170px;
+    margin: 0 auto;
+    height: 3500px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+    color: #637f83;
+    font-family: 'Source Sans Pro';
+    font-size: 16pt;
+
+}
+
+nav ul li a:hover {
+    color: #e4551d;
+}
+
+.black-middle {
+    background-color: #4c4c4c;
+    height: 100px;
+}
+
+/* #backgroundimage img{
+    width: 1170px;
+    height: 420px;
+} */
+#backgroundimage {
+    background-image: url("../images/wallpaperwide.png");
+    background-size: cover;
+}
+
+#backgroundimage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+
+#circle {
+    height: 72px;
+    width: 80px;
+    background-color: #e4551d;
+    border-radius: 50%;
+}
+
+#arrow {
+    position: absolute;
+    margin-top: 12rem;
+}
+
+#p1 {
+    font-family: 'Myriad Pro';
+    font-size: 40pt;
+    color: #ffffff;
+    border-bottom: 2px solid white;
+    text-align: center;
+    display: inline-block;
+}
+
+#caption {
+    display: flex;
+    margin-top: -397px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#p2 {
+    font-family: 'Myriad Pro';
+    font-size: 40pt;
+    color: #ffffff;
+    border-bottom: 2px solid white;
+    text-align: center;
+    display: inline-block;
+    text-align: justify;
+}
+
+#p3 {
+    font-family: 'Lato';
+    font-size: 16pt;
+    color: #ffffff;
+    margin-top: 5px;
+    text-align: center;
+    display: inline-block;
+    text-align: justify;
+}
+
+#p4 {
+    font-family: 'Lato';
+    font-size: 16pt;
+    color: #ffffff;
+    margin-top: 8px;
+    text-align: center;
+    display: inline-block;
+    text-align: justify;
+}
+
+#p5 {
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: #637f83;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#main2 #p6 {
+    font-size: 16pt;
+    font-family: 'Source Sans Pro ';
+    color: #637f83;
+    margin-top: 13px;
+    text-align: center;
+
+}
+
+#desktop {
+    width: 286px;
+    /* margin-left: 36px; */
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#middle {
+    height: 380px;
+    background-color: #f6f6f6;
+    margin-top: 19px;
+}
+
+#p7 {
+    font-family: 'Myriad Pro';
+    font-size: 22pt;
+    color: #637f83;
+
+}
+
+#p8 {
+    font-size: 14pt;
+    color: #a4a3a3;
+}
+
+#p9 {
+    color: #a4a3a3;
+}
+
+#p10 {
+    color: #a4a3a3;
+}
+
+.more-btn {
+    font-size: 16pt;
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/Sansproblack/SourceSansPro-Black.woff2') format('woff2'),
+        url('/fonts/Sanspro/SourceSansPro-Bold.woff2') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    color: #ffffff;
+    background-color: #637f83;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+
+    margin-top: 145px;
+
+
+}
+
+#middle {
+    display: flex;
+
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* margin-left: 39px; */
+    align-items: center;
+    /* margin-left: 39px; */
+    align-content: center;
+}
+
+
+#p7 {
+    text-align: center;
+    margin-top: -189px;
+    font-family: 'Myriad Pro';
+    font-size: 22pt;
+    color: #637f83;
+}
+
+#p8 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-Regular.woff2') format('woff2'),
+        url('SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+#p9 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-Regular.woff2') format('woff2'),
+        url('SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+#p10 {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-Regular.woff2') format('woff2'),
+        url('SourceSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+#jar {
+    width: 278px;
+    /* margin-left: 40px; */
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#p11 {
+    font-family: 'Myriad Pro';
+    font-size: 22pt;
+    color: #637f83;
+    text-align: center;
+    margin-top: -189px;
+}
+
+#p12 {
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #a4a3a3;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#p13 {
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #a4a3a3;
+    text-align: center;
+    width: 281px;
+    margin-top: 4px;
+}
+
+#p14 {
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #a4a3a3;
+    text-align: center;
+    margin-top: 4px;
+
+}
+
+.more-btn2 {
+    font-size: 16pt;
+    font-family: 'Source Sans Pro';
+
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    color: #ffffff;
+    background-color: #637f83;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+
+    margin-top: 145px;
+    text-align: center;
+
+}
+
+.v1 {
+
+    border-left: 2px solid #d5d5d5;
+    height: 380px;
+
+}
+
+.v2 {
+    border-left: 2px solid #d5d5d5;
+    height: 380px;
+}
+
+.v3 {
+
+    border-left: 2px solid #d5d5d5;
+    height: 380px;
+}
+
+#setting {
+    width: 278px;
+    /* margin-left: 40px; */
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#p15 {
+    font-size: 22pt;
+    font-family: 'Myriad Pro';
+    color: #637f83;
+    text-align: center;
+    margin-top: -197px;
+}
+
+#p16 {
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14pt;
+    color: #a4a3a3;
+    text-align: center;
+    margin-top: 9px;
+}
+
+#p17 {
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14pt;
+    color: #a4a3a3;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#p18 {
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14pt;
+    color: #a4a3a3;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.more-btn3 {
+
+
+
+    font-size: 16pt;
+    font-family: 'Source Sans Pro';
+
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    color: #ffffff;
+    background-color: #637f83;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+
+    margin-top: 145px;
+    text-align: center;
+
+
+}
+
+#setting {
+    height: 380px;
+}
+
+/* #speaker img {
+    margin-left: 104px;
+    margin-top: 73px;
+} */
+
+#p19 {
+    font-size: 22pt;
+    font-family: 'Myriad Pro';
+    color: #637f83;
+    text-align: center;
+    margin-top: -191px;
+}
+
+#speaker {
+    width: 278px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-btn4 {
+
+    font-size: 16pt;
+    font-family: 'Source Sans Pro';
+
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    color: #ffffff;
+    background-color: #637f83;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+
+    margin-top: 145px;
+    text-align: center;
+}
+
+#p20 {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff2'),
+        url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14pt;
+    color: #a4a3a3;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#p21 {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff2'),
+        url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14pt;
+    color: #a4a3a3;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#p22 {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff2'),
+        url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14pt;
+    color: #a4a3a3;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#portfolio {
+    margin-top: 30px;
+    width: 1170px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/Sanspro/SourceSansPro-Bold.woff2') format('woff2'),
+        url('/fonts/Sanspro/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    color: #637f83;
+    text-align: center;
+}
+
+#ppo2 {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff2'),
+        url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #637f83;
+    font-size: 14pt;
+    text-align: center;
+}
+
+#arrows {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#img1 {
+    margin-left: 35rem;
+    margin-top: 2rem;
+}
+
+#imgg {
+    margin-top: 2rem;
+}
+
+#hr1 {
+    border-bottom: 2px solid #d5d5d5;
+    height: 10px;
+    width: 520px;
+    /* display: inline-block; */
+    margin-top: 32px;
+}
+
+#hr2 {
+    border-bottom: 2px solid #d5d5d5;
+    height: 10px;
+    width: 533px;
+    /* display: inline-block; */
+    /* margin-left: 126px; */
+    margin-top: -13px;
+}
+
+#group-img {
+    margin-top: 40px;
+}
+
+#portfolio-btn {
+    background-color: #e4551d;
+    color: white;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+
+    text-align: center;
+
+    margin-left: 498px;
+    margin-top: 30px;
+
+
+
+    font-family: 'Source Sans Pro';
+
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18px
+}
+
+#div4 {
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+#prep1 {
+    font-family: 'Source Sans Pro';
+
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 22px;
+    color: #637f83;
+    float: right;
+    margin-top: 0rem;
+    margin-right: 16rem;
+
+}
+
+#pref {
+
+    display: inline-block;
+    width: 50%;
+    height: 5%;
+}
+
+#prep2 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+    float: right;
+    margin-top: -6rem;
+    margin-right: 2rem;
+
+}
+
+#prep3 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+    float: right;
+    margin-top: -4rem;
+
+    margin-right: 3rem;
+
+}
+
+#prep4 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+    float: right;
+    margin-top: -2rem;
+    margin-right: 15rem;
+
+
+}
+
+
+#pre1 {
+    font-family: 'Source Sans Pro';
+
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 22px;
+    color: #637f83;
+    display: inline;
+    /* margin-right: 203px; */
+
+    /* margin-right: 203px; */
+    float: right;
+    margin-right: 13rem;
+    margin-top: 0em;
+
+
+}
+
+
+
+#pre2 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+    float: right;
+    margin-top: -6rem;
+
+}
+
+#pre3 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+    float: right;
+    margin-top: -4rem;
+
+
+}
+
+#pre4 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+
+    /* margin-right: 236px; */
+    float: right;
+    margin-top: -2rem;
+    margin-right: 14rem;
+
+}
+
+#pref2 {
+    display: inline-block;
+    /* margin-left: 46px; */
+    width: 50%;
+    height: 5%;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+#pref3 {
+
+    display: inline-block;
+    width: 50%;
+    height: 6%;
+    margin-top: 5rem;
+}
+
+#pref4 {
+
+    display: inline-block;
+
+    width: 50%;
+    height: 6%;
+    margin-top: 5rem;
+}
+
+#preim {
+    /* margin-left: -203px; */
+    height: 126px;
+    width: 138px;
+}
+
+#preimg {
+    height: 126px;
+    width: 126px;
+
+
+}
+
+#preimg3 {
+    width: 126px;
+
+}
+
+#prep10 {
+    font-family: 'Source Sans Pro';
+
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 22px;
+    color: #637f83;
+
+
+
+    float: right;
+    margin-right: 15rem;
+
+}
+
+#prep20 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+
+    float: right;
+    margin-right: 1rem;
+    margin-top: -6rem;
+}
+
+#prep30 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+    float: right;
+    margin-top: -4rem;
+    margin-right: 1rem;
+
+
+}
+
+#prep40 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+    /* display: inline; */
+    float: right;
+    margin-top: -2rem;
+    margin-right: 7rem;
+
+
+}
+
+#prep100 {
+    font-family: 'Source Sans Pro';
+
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 22px;
+    color: #637f83;
+
+
+    float: right;
+    margin-right: 14rem;
+
+}
+
+#prep200 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+    float: right;
+    margin-top: -6rem;
+
+}
+
+#prep300 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+    float: right;
+    margin-top: -4rem;
+
+
+}
+
+#prep400 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #959494;
+    float: right;
+    margin-top: -2rem;
+    margin-right: 7rem;
+
+}
+
+#bold {
+    font-family: 'Source Sans Pro';
+
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 22pt;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+#light {
+
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14pt;
+    text-align: center;
+    color: white;
+}
+
+#prefooter {
+    height: 340px;
+    background-color: #637f83;
+    width: 100%;
+}
+
+#i {
+    color: white;
+}
+
+#pb {
+    font-family: 'Source Sans Pro';
+
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18pt;
+    color: white;
+    /* display: inline-block; */
+    margin-left: 1rem;
+
+}
+
+#singup :hover {
+    background-color: #f05621;
+}
+
+
+
+
+#pb2 {
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: white;
+    margin-left: 142px;
+    margin-top: -18px;
+}
+
+
+
+
+input {
+    background-color: #597275;
+    border: none;
+    border-radius: -18px;
+    width: 436px;
+    height: 32px;
+    color: white;
+
+
+}
+
+input:focus {
+    outline: 2px solid #f05621;
+
+}
+
+#singup:hover {
+    background-color: #e4551d;
+}
+
+#singup {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/Sansproblack/SourceSansPro-Black.woff2') format('woff2'),
+        url('/fonts/Sanspro/SourceSansPro-Bold.woff2') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18pt;
+    color: white;
+    background-color: #597275;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 9px;
+}
+
+#sec2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 3rem;
+}
+
+
+#tp1 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff2'),
+        url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #7c9294;
+}
+
+#tp2 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff2'),
+        url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #7c9294;
+}
+
+#tp3 {
+    font-size: 14px;
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff2'),
+        url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #7c9294;
+}
+
+#sec3 {
+    background-color: #597275;
+    float: right;
+    /* display: inline-block; */
+    margin-top: 68px;
+    margin-right: 44px;
+    width: 40%;
+
+
+
+}
+
+#m {
+    padding-top: 2rem;
+
+}
+
+#middlef {
+    background-color: #ffffff;
+    height: 190px;
+    display: flex;
+}
+
+#facebook {
+    width: 16px;
+    height: 31px;
+
+    /* background-color: #e4551d; */
+    z-index: 1;
+    position: absolute;
+    margin-left: -15rem;
+    color: #ffffff;
+}
+
+#circle1 {
+    height: 72px;
+    width: 80px;
+    background-color: #e4551d;
+    border-radius: 50%;
+    display: inline-block;
+    /* margin-left: 80px; */
+    /* z-index: -1; */
+    /* margin-top: 40px; */
+}
+
+#social1 {
+
+    display: inline-block;
+    width: 33%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#fp {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/Sanspro/SourceSansPro-Bold.woff2') format('woff2'),
+        url('/fonts/Sanspro/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18pt;
+    color: #96a7a9;
+    /* float: right;
+    margin-top: 53px;
+    margin-right: 752px; */
+    margin-left: 10px;
+    /* margin-bottom: -12px; */
+    display: inline-block;
+
+
+}
+
+#fpc {
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #c0cfd1;
+
+    margin-left: 10px;
+
+    margin-left: 71px;
+
+    float: right;
+    margin-top: -1rem;
+}
+
+
+
+
+#social2 {
+
+    width: 33%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#circle2 {
+    height: 72px;
+    width: 80px;
+    background-color: #e4551d;
+    border-radius: 50%;
+    display: inline-block;
+    /* margin-left: 80px; */
+    /* z-index: -1; 
+    margin-top: 40px; */
+}
+
+#google {
+    width: 24px;
+    height: 30px;
+    margin-top: 5rem;
+    margin-left: -14rem;
+    position: absolute;
+    z-index: 1;
+    color: #ffffff;
+}
+
+#fp2 {
+    font-family: 'Source Sans Pro';
+
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18pt;
+    color: #96a7a9;
+    float: right;
+    /* display: inline-block; */
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+
+}
+
+#fpc2 {
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #c0cfd1;
+    float: right;
+    margin-top: -1rem;
+    margin-left: 5rem;
+
+}
+
+#fpc3 {
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: #c0cfd1;
+    /* float: right;
+    margin-top: -29px;
+    margin-right: 801px; */
+    margin-left: 10px;
+    /* margin-bottom: -12px; */
+    float: right;
+    margin-top: -1rem;
+    margin-left: 5rem;
+
+}
+
+#fp3 {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/Sanspro/SourceSansPro-Bold.woff2') format('woff2'),
+        url('/fonts/Sanspro/SourceSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    font-size: 18pt;
+    color: #96a7a9;
+    /* float: right;
+    margin-top: 53px;
+    margin-right: 752px; */
+    margin-left: 10px;
+    /* margin-bottom: -12px; */
+    /* display: inline-block; */
+    float: right;
+    margin-top: -1rem;
+
+
+
+}
+
+#circle3 {
+    height: 72px;
+    width: 80px;
+    background-color: #e4551d;
+    border-radius: 50%;
+    display: inline-block;
+    /* margin-left: 80px; */
+    /* z-index: -1; */
+    /* margin-top: 40px; */
+}
+
+#linkdein {
+    width: 24px;
+    height: 30px;
+    /* margin-top: 12px; */
+    /* background-color: #e4551d; */
+    position: absolute;
+    margin-left: -15rem;
+    z-index: 1;
+    color: #ffffff;
+
+}
+
+#social3 {
+    display: inline-block;
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerp {
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff2'),
+        url('/fonts/sansproregular/SourceSansPro-Regular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: white;
+    text-align: center;
+    padding-top: 33px;
+
+}
+
+#footer {
+    background-color: #637f83;
+    height: 89px;
+    /* width: 1350px; */
+}
+
+.line {
+    width: 33px;
+    background-color: #f05621;
+    height: 4px;
+    margin: 5px 3px;
+
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 12%;
+    top: 33px;
+}
+/* 
+header{
+    position: fixed !important;
+    top: 0;
+    width: 1170px;
+} */
